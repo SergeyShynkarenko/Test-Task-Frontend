@@ -1,0 +1,13 @@
+@import "../utils/_variables.scss";
+
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  &.show,
+  &:active,
+  &:hover {
+    background-color: transparent !important;
+  }
+}

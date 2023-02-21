@@ -1,0 +1,36 @@
+// FONTS
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format("woff");
+  }
+}
+
+@include font(
+  "PlusJakartaSans",
+  normal,
+  400,
+  "../../fonts/PlusJakartaSans-Regular.woff"
+);
+@include font(
+  "PlusJakartaSans",
+  normal,
+  500,
+  "../../fonts/PlusJakartaSans-Medium.woff"
+);
+@include font(
+  "PlusJakartaSans",
+  normal,
+  600,
+  "../../fonts/PlusJakartaSans-SemiBold.woff"
+);
+
+@include font(
+  "PlusJakartaSans",
+  normal,
+  700,
+  "../../fonts/PlusJakartaSans-Bold.woff"
+);

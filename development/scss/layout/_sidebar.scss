@@ -1,0 +1,79 @@
+// SIDEBAR
+
+.chat__sidebar {
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid $border;
+
+  .sidebar {
+    &__search {
+      padding: 17px 20px;
+      border-bottom: 1px solid $border;
+
+      span {
+        cursor: pointer;
+        svg {
+          fill: $grey;
+          transition: all 0.3s ease;
+          &:hover {
+            fill: black;
+          }
+        }
+      }
+    }
+
+    &__profile {
+      flex: 1 0 auto;
+
+      .profile__item {
+        display: flex;
+        align-items: center;
+        padding: 22px 20px;
+        border-right: 2px solid transparent;
+        cursor: pointer;
+        border-bottom: 1px solid $border;
+        transition: all 0.3s ease;
+
+        &.item--active {
+          background-color: rgba(253, 123, 92, 0.1);
+          border-right: 2px solid $accent;
+        }
+
+        &-text {
+          flex: 1;
+          margin-left: 16px;
+        }
+
+        .text__top {
+          display: flex;
+          justify-content: space-between;
+          p {
+            margin-bottom: 8px;
+            font-weight: 600;
+          }
+          time {
+            color: $grey;
+            font-size: 12px;
+            line-height: 1.33;
+          }
+        }
+
+        .text__message {
+          font-size: 12px;
+          line-height: 1.33;
+        }
+      }
+    }
+
+    &__list {
+      border-top: 1px solid $border;
+      display: flex;
+      flex: 0 0 auto;
+      padding: 20px 23px;
+      &-item:not(:first-child) {
+        margin-left: 12px;
+      }
+    }
+  }
+}
