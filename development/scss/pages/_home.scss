@@ -110,7 +110,7 @@ main {
           }
           .search-btn {
             svg {
-              fill: black;
+              fill: $accent;
             }
           }
         }
@@ -142,7 +142,7 @@ main {
           fill: #88898a;
           transition: all 0.3s ease;
           &:hover {
-            fill: black;
+            fill: $accent;
           }
         }
         .dropdown-menu {

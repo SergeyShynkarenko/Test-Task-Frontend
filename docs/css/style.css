@@ -13417,7 +13417,7 @@ p {
   transition: all 0.3s ease;
 }
 .chat__sidebar .sidebar__search span svg:hover {
-  fill: black;
+  fill: #fd7b5c;
 }
 .chat__sidebar .sidebar__profile {
   -webkit-box-flex: 1;
@@ -13607,7 +13607,7 @@ main {
   width: 350px;
 }
 .chat__dialog-header .header__option-search:hover .search-btn svg {
-  fill: black;
+  fill: #fd7b5c;
 }
 .chat__dialog-header .header__option-search .search {
   -webkit-transition: all 0.3s ease;
@@ -13639,7 +13639,7 @@ main {
   transition: all 0.3s ease;
 }
 .chat__dialog-header .header__option-dropdown svg:hover {
-  fill: black;
+  fill: #fd7b5c;
 }
 .chat__dialog-header .header__option-dropdown .dropdown-menu {
   border: none;
